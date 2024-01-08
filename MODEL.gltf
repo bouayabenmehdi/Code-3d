@@ -1,0 +1,176 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - ef4f41a6842c60acc27c15e21adfa2a5f9da2982",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 19770,
+            "type": "VEC3",
+            "max": [
+                0.17139498889446259,
+                0.7198190093040466,
+                0.06557399779558182
+            ],
+            "min": [
+                -0.16440200805664063,
+                -0.000055999997130129489,
+                -0.06499800086021424
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 19770,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 19770,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 118608,
+            "type": "SCALAR",
+            "max": [
+                19769.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 237240,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 237240,
+            "byteLength": 237240,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 474480,
+            "byteLength": 158160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 632640,
+            "byteLength": 474432,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1107072,
+            "uri": "MODEL_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8069523572921753,
+                    0.8069523572921753,
+                    0.8069523572921753,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "Matte 7",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Realistic_White_Male_Low_Poly001",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.49823686480522158,
+                0.29999998211860659,
+                0.49394896626472475
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.0025830864906311037,
+                0.000027185566068510526,
+                0.001739585306495428
+            ],
+            "rotation": [
+                0.0,
+                0.5735763907432556,
+                0.0,
+                0.8191520571708679
+            ],
+            "scale": [
+                0.4854567050933838,
+                0.48545655608177187,
+                0.4854567050933838
+            ],
+            "mesh": 0,
+            "name": "Realistic_White_Male_Low_Poly001"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
